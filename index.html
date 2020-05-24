@@ -20,7 +20,7 @@
                 if (result === 'granted') {
                   console.log('granted');
                   registration.showNotification('Ausstehende Aufgaben', {
-                      body: 'ToDo1<br>ToDo2<br>ToDo3',
+                      body: 'ToDo' + Date.now(),
                       badge: 'img/icons/house/icon-72x72.png',
                       icon: 'img/icons/jukebox/icon-72x72.png',
                       tag: 'aufgaben',
